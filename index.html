@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manuale&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/160b0d3734.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -38,61 +39,120 @@
                         Frequently in Ghana, children are given their first name as a <strong>'day name'</strong>
                         which
                         corresponds to the day in the week they were born.</p>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-9">
+                        <table class="table">
+                            <thead>
+                                <tr>
 
-                    <table class="table">
-                        <thead>
-                            <tr>
+                                    <th scope="col">Days</th>
+                                    <th scope="col">Female</th>
+                                    <th scope="col">Male</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
 
-                                <th scope="col">Days</th>
-                                <th scope="col">Female</th>
-                                <th scope="col">Male</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
+                                    <td>Sunday</td>
+                                    <td>Akosua</td>
+                                    <td>Kwasi</td>
+                                </tr>
+                                <tr>
 
-                                <td>Sunday</td>
-                                <td>Akosua</td>
-                                <td>Kwasi</td>
-                            </tr>
-                            <tr>
+                                    <td>Monday</td>
+                                    <td>Adwoa</td>
+                                    <td>Kwadwo</td>
+                                </tr>
+                                <tr>
 
-                                <td>Monday</td>
-                                <td>Adwoa</td>
-                                <td>Kwadwo</td>
-                            </tr>
-                            <tr>
+                                    <td>Tuesday</td>
+                                    <td>Abenaa</td>
+                                    <td>Kwabena</td>
+                                </tr>
+                                <tr>
 
-                                <td>Tuesday</td>
-                                <td>Abenaa</td>
-                                <td>Kwabena</td>
-                            </tr>
-                            <tr>
+                                    <td>Wednesday</td>
+                                    <td>Akua</td>
+                                    <td>Kwaku</td>
+                                </tr>
+                                <tr>
 
-                                <td>Wednesday</td>
-                                <td>Akua</td>
-                                <td>Kwaku</td>
-                            </tr>
-                            <tr>
+                                    <td>Thursday</td>
+                                    <td>Yaa</td>
+                                    <td>Yaw</td>
+                                </tr>
+                                <tr>
 
-                                <td>Thursday</td>
-                                <td>Yaa</td>
-                                <td>Yaw</td>
-                            </tr>
-                            <tr>
+                                    <td>Friday</td>
+                                    <td>Afua</td>
+                                    <td>Kofi</td>
+                                </tr>
+                                <tr>
 
-                                <td>Friday</td>
-                                <td>Afua</td>
-                                <td>Kofi</td>
-                            </tr>
-                            <tr>
+                                    <td>Saturday</td>
+                                    <td>Ama</td>
+                                    <td>Kwame</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <h4 style="font-family: 'Grenze Gotisch', cursive; color:green;">Find your Akan name</h4>
+                    </div>
+                
+                    
+                </div>
+                <div class="container" id="content">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="card col-sm-6 ">
+                            <legend class="col-form-label  text-muted ">Select your birthday</legend>
+                            <input type="date" id="birthday" name="birthday">
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <!-- &nbsp; &nbsp; -->
+                                    <legend class="col-form-label col-sm-9  text-muted ">Select your gender
+                                    </legend>
 
-                                <td>Saturday</td>
-                                <td>Ama</td>
-                                <td>Kwame</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                    <div class="col-sm-6">
+                                        <div class="form-check ">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gender"
+                                                value="female" checked>
+                                            <label class=" radio-inline" for="female">
+                                                Female
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-check ">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gender"
+                                                value="male">
+                                            <label class="radio-inline" for="male">
+                                                Male
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- &nbsp;&nbsp; -->
+
+                            </fieldset>
+                            <div class="form-group row">
+                                <div class="col-sm-1"></div>
+                                <div class="col">
+                                    <button type="button" onclick="akanName()"
+                                        class="btn btn-primary btn-sm">Submit</button>
+                                    <button type="button " onclick="exit()"
+                                        class="btn btn-danger btn-sm">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
