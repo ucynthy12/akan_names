@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/160b0d3734.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Akan-names</title>
 </head>
 
 <body>
@@ -29,9 +29,10 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
                 <div class="row" id="description">
-                    <p style="font-family: 'Manuale', serif;"> A web application that takes a user's birthday and
+                    <p style="font-family: 'Manuale', serif;"> This is a web application that takes a user's birthday and
                         calculates the day of the week they were
                         born and
                         then depending on their gender outputs their Akan name. Akan names are derived from Ghanian
@@ -40,10 +41,10 @@
                         which
                         corresponds to the day in the week they were born.</p>
                     <div class="col-sm-1"></div>
-                    <div class="col-sm-9">
-                        <table class="table">
+                    <div class="col-sm-9" >
+                        <table class="table" >
                             <thead>
-                                <tr>
+                                <tr style="font-family: 'Grenze Gotisch', cursive; color:green;">
 
                                     <th scope="col">Days</th>
                                     <th scope="col">Female</th>
@@ -110,7 +111,7 @@
                 <div class="container" id="content">
                     <div class="row">
                         <div class="col-sm-3"></div>
-                        <div class="card col-sm-6 ">
+                        <div class="card col-sm-9 ">
                             <legend class="col-form-label  text-muted ">Select your birthday</legend>
                             <input type="date" id="birthday" name="birthday">
                             <fieldset class="form-group">
@@ -144,7 +145,7 @@
                             </fieldset>
                             <div class="form-group row">
                                 <div class="col-sm-1"></div>
-                                <div class="col">
+                                <div class="col-sm-6">
                                     <button type="button" onclick="akanName()"
                                         class="btn btn-primary btn-sm">Submit</button>
                                     <button type="button " onclick="exit()"
@@ -152,12 +153,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row" id="answer"></div>
+                        <div class="row" >
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-8" id="answer"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="footer" style="background-color: rgb(236, 236, 165);text-align: center;"><p>&copy;Cynthia Umutoniwabo 2020 All Rights Reserved. Akan_Names.</p></footer>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
