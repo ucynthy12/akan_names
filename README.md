@@ -14,6 +14,18 @@ Live demo :arrow_right: [Akan_names](https://ucynthy12.github.io/akan_names/)
 * Select your **birthday**
 * Select your **gender**
 * Submit to find your Akan name
+
+## Behavior Driven Development(BDD)
+   1. *Scenario* 1:    
+    * Input: No Birthday seclected  .   
+    * Output: Alert to select valid Birthday ,
+  
+   
+   3. *Scenario* 2:  
+    * Input: Birthday and Gender seclected  .  
+    * Output: Picture that has your Akan name and description of it.
+
+
 ## Credits
  . [Font Awesome](https://fontawesome.com/)  
  . [Google fonts](https://fonts.google.com/)   
