@@ -18,13 +18,16 @@ Live demo :arrow_right: [Akan_names](https://ucynthy12.github.io/akan_names/)
 ## Behavior Driven Development(BDD)
    1. *Scenario* 1:    
     * Input: No Birthday seclected  .   
-    * Output: Alert to select valid Birthday ,
+    * Output: Alert to select valid Birthday .
   
    
    3. *Scenario* 2:  
     * Input: Birthday and Gender seclected  .  
     * Output: Picture that has your Akan name and description of it.
-
+  
+   3. *Scenario* 3   
+    * Input : select cancel to reset application.  
+    * Output : resets application.  
 
 ## Credits
  . [Font Awesome](https://fontawesome.com/)  
